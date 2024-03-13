@@ -84,22 +84,3 @@ module.exports.createAuthor = createAuthor
 module.exports.loginAuthor = loginAuthor
 
 
-
-
-/***************************************************End******************************************************************/
-
-
-
-
-
-
-
-
-/*
-
-const isValidEmail = (mail) => {
-    if (/^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/.test(mail))
-        return true
-}
-
-*/
