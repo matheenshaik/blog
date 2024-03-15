@@ -103,6 +103,8 @@ const updateBlogs = async function (req, res) {
         return res.status(500).send({ status: false, msg: error.message })
     }
 }
+
+
 /**********************************************Deleted*******************************************************************/
 const deleted = async function (req, res) {
     try {
@@ -186,12 +188,9 @@ const queryDeleted = async function (req, res) {
 
 
 
-
 module.exports.createBlog = createBlog
 module.exports.getBlogs = getBlogs
 module.exports.updateBlogs = updateBlogs
 module.exports.deleted = deleted
 module.exports.queryDeleted = queryDeleted
-
-
 
